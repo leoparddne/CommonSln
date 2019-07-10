@@ -12,13 +12,13 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Log.Warn("test");
+            CCLUtility.Log.Warn("test");
         }
 
         [TestMethod]
         public void TestDatetime2UTC()
         {
-            Console.WriteLine(Utility.TimeUtility.DateTime2UTC(DateTime.Now));
+            Console.WriteLine(CCLUtility.TimeUtility.DateTime2UTC(DateTime.Now));
             //TimeUtility.
         }
     }
