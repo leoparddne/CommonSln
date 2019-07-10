@@ -1,3 +1,4 @@
+using CCLUtility;
 using log4net;
 using log4net.Repository.Hierarchy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -21,5 +22,9 @@ namespace UnitTestProject1
             Console.WriteLine(CCLUtility.TimeUtility.DateTime2UTC(DateTime.Now));
             //TimeUtility.
         }
+    }
+    public class c
+    {
+
     }
 }
