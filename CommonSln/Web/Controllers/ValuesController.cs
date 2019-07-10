@@ -14,7 +14,7 @@ namespace Web.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            Utility.Log.Warn("test");
+            CCLUtility.Log.Warn("test");
             return new string[] { "value1", "value2" };
         }
 

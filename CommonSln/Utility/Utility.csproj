@@ -11,6 +11,8 @@ CCL（公共类库）包含日志引擎、UTC时间转换、设置和返回统�
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageId>CCLUtility</PackageId>
+    <RootNamespace>CCLUtility</RootNamespace>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

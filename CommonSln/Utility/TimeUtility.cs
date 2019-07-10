@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Utility
+namespace CCLUtility
 {
     public static class TimeUtility
     {
