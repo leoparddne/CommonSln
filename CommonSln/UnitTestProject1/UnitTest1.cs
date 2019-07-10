@@ -11,7 +11,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Log.WriteWarnning("test");
+            Log.Warn("test");
         }
     }
 }

@@ -20,9 +20,17 @@ namespace Utility
                 log = LogManager.GetLogger(repository.Name, "InfoLogger");
             }
         }
-        public static void WriteWarnning(string msg)
+        public static void Info(string msg)
         {
             log.Info(msg);
+        }
+        public static void Err(string msg)
+        {
+            log.Error(msg);
+        }
+        public static void Warn(string msg)
+        {
+            log.Warn(msg);
         }
     }
 }
