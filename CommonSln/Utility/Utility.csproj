@@ -6,13 +6,15 @@
     <Authors>ives</Authors>
     <Company />
     <Product>Common Class Library</Product>
-    <Description>CCL(Common Class Library) contains log engine、utc time convert、set&amp;return unified global null string
-CCL（公共类库）包含日志引擎、UTC时间转换、设置和返回统一的全局空字符串功能</Description>
+    <Description>CCL(Common Class Library) contains log engine(Log)、utc time convert(TimeUtility)、set&amp;return unified global null string(StringExtend),excel helper(ExcelHelper),get enum's DescriptionAttribute(EnumHelper)
+CCL（公共类库）包含日志引擎(Log)、UTC时间转换(TimeUtility)、设置和返回统一的全局空字符串功能(StringExtend)、excel帮助类(ExcelHelper)、获取枚举的描述信息(EnumHelper)</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageId>CCLUtility</PackageId>
     <RootNamespace>CCLUtility</RootNamespace>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
+    <PackageProjectUrl>https://github.com/leoparddne/CommonSln/wiki/CCLUtility</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

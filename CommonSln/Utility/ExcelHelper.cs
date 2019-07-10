@@ -9,8 +9,15 @@ namespace CCLUtility
     public class ExcelHelper
     {
         ExcelPackage package;
-        ExcelWorksheet tmp;
         ExcelWorksheet worksheet;
+        public ExcelHelper()
+        {
+
+        }
+        public ExcelHelper(string fillPath, string sheetName = "sheet1", bool removeExistFile = false)
+        {
+            Init(fillPath, sheetName = "sheet1", removeExistFile = false);
+        }
         /// <summary>
         /// 初始化
         /// </summary>
