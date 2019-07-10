@@ -12,12 +12,13 @@ CCL（公共类库）包含日志引擎(Log)、UTC时间转换(TimeUtility)、�
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageId>CCLUtility</PackageId>
     <RootNamespace>CCLUtility</RootNamespace>
-    <Version>1.0.0.2</Version>
+    <Version>1.0.0.3</Version>
     <PackageProjectUrl>https://github.com/leoparddne/CommonSln/wiki/CCLUtility</PackageProjectUrl>
     <AssemblyVersion>1.0.0.2</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
     <PackageReference Include="EPPlus.Core" Version="1.5.4" />
     <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>

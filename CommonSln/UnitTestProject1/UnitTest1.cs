@@ -1,8 +1,10 @@
+using AutoMapper;
 using CCLUtility;
 using log4net;
 using log4net.Repository.Hierarchy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 //using Utility;
 
 namespace UnitTestProject1
@@ -55,6 +57,30 @@ namespace UnitTestProject1
             var sheet2 = excelHelper2.AddSheet("sheet2");
             excelHelper2.SetValueBySheet(sheet2, 2, 1, "sheet2");
             excelHelper2.Save();
+        }
+        [TestMethod]
+        public void TestAutoMapper()
+        {
+            var aa = new a();
+            //原来的写法
+            b bb = Mapper.Map<b>(aa);
+            //新的写法
+            var newB = aa.Map<b>();
+
+            var la = new List<a>();
+            var lb = new List<b>();
+            //原来的写法
+            var a = Mapper.Map<List<a>, List<b>>(la);
+            //新的写法
+            var listNew = la.Map<List<b>>();
+        }
+        public class a
+        {
+            public string name = "a";
+        }
+        public class b
+        {
+            public string name;
         }
     }
     
