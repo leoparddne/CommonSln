@@ -24,13 +24,25 @@ namespace Utility
         {
             log.Info(msg);
         }
+        public static void Info(string msg, Exception e)
+        {
+            log.Info(msg,e);
+        }
         public static void Err(string msg)
         {
             log.Error(msg);
         }
+        public static void Err(string msg, Exception e)
+        {
+            log.Error(msg, e);
+        }
         public static void Warn(string msg)
         {
             log.Warn(msg);
+        }
+        public static void Warn(string msg,Exception e)
+        {
+            log.Warn(msg, e);
         }
     }
 }
